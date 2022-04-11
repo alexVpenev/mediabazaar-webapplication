@@ -1,0 +1,118 @@
+html,body {
+    margin: 0px;
+    padding: 0px;
+  }
+  body {
+    font-size: 120%;
+    background: #81C3D7;
+    font-family: Arial, Helvetica, sans-serif;  
+  }
+  h1{
+      text-align: center;
+      color: #16425B;
+  }
+  .box{
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 5%;
+    padding-right: 0.3vh;
+    padding-left: 0.3vh;
+    padding-top: 2vh;
+    background-color: #e3e6e1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .btn{
+      font-size: 2.5vh;
+      padding: 1.5vh;
+      margin-top:0.5vh;
+      margin-bottom: 2vh;
+      margin-left: 25%;
+      width: 50%;
+      color: #e3e6e1;
+      background: #3A7CA5;
+      border: 1px solid #3A7CA5;
+      border-radius: 5px;
+      cursor: pointer; 
+  }
+  .input-group {
+    margin: 5vh 0px 5vh 0px;
+  }
+  .input-group label {
+    display: block;
+    text-align: left;
+    margin-left: 10%;
+    color:#16425B;
+  }
+  .input-group input {
+    height: 30px;
+    width: 75%;
+    margin-left: 10%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #16425B;
+  }
+  .footer{
+    margin-bottom: 0%;
+    text-align: center;
+    margin-top: 40vh;
+    font-size: 2vh;
+    color:#16425B;
+  }
+  .footer a{
+    color: #16425B;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2F6690;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    font-size: 2.5vh;
+    display: block;
+    color: #D9DCD6;
+    text-align: center;
+    padding: 3vh 5vh;
+    text-decoration: none;   
+  }
+
+  li.right {
+      float: right;
+  }
+  
+  li a:hover {
+    background-color: #D9DCD6;
+    color: #2F6690;
+  }
+  
+  .active {
+    background-color: #3A7CA5;
+    color: #D9DCD6;
+  }
+  h2{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 48px;
+    padding: 20px;
+    color: #12374d;
+    text-align: center;
+    text-shadow: 2px 2px 5px #D9DCD6;
+  }
+
+  .success{
+    padding: 20px;
+    background-color: green;
+    color: white;
+    margin-left: 400px;
+    width: 70%;}
