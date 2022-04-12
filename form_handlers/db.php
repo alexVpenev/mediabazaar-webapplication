@@ -1,9 +1,10 @@
 <?php
 global $dbcon;
-$dbhost = 'studmysql01.fhict.local';
-$dbname = 'dbi412462';
-$dbuser = 'dbi412462';
-$dbpass = 'g4rocks';
+// db no longer exists
+$dbhost = '';
+$dbname = '';
+$dbuser = '';
+$dbpass = '';
 
 try{
     $dbcon = new PDO("mysql:host=".$dbhost.";dbname=".$dbname,$dbuser,$dbpass);
